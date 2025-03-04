@@ -2,6 +2,9 @@ import Image from "next/image";
 import Header from "./components/Header";
 import ProfileIntro from "./components/ProfileIntro";
 import AboutMe from "./components/AboutMe";
+import Work from "./components/Work";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -18,6 +21,9 @@ export default function Home() {
       <Header />
       <ProfileIntro />
       <AboutMe />
+      <Work />
+      <Contact />
+      <Footer />
     </>
   );
 }

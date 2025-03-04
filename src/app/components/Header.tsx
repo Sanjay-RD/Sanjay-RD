@@ -71,32 +71,16 @@ const Header = () => {
         </li>
       </ul>
       <div className="flex items-center gap-4">
-        {/* <button>
-            <img src="./images/moon_icon.png" className="w-6 dark:hidden" />
-            <img
-              src="./images/sun_icon.png"
-              className="w-6 hidden dark:block"
-            />
-          </button> */}
-
         <a
           href="#contact"
           className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full m1-4 font-Ovo dark:border-white/50"
         >
           Contact
-          <img src="./images/arrow-icon.png" className="w-3 dark:hidden" />
-          <img
-            src="./images/arrow-icon-dark.png"
-            className="w-3 hidden dark:block"
-          />
+          <img src="./images/arrow-icon.png" className="w-3" />
         </a>
 
         <button className="block md:hidden ml-3">
-          <img src="./images/menu-black.png" className="w-6 dark:hidden" />
-          <img
-            src="./images/menu-white.png"
-            className="w-6 hidden dark:block"
-          />
+          <img src="./images/menu-black.png" className="w-6" />
         </button>
       </div>
 
@@ -105,14 +89,7 @@ const Header = () => {
         className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo dark:bg-darkHover dark:text-white"
       >
         <div className="absolute right-6 top-6">
-          <img
-            src="./images/close-black.png"
-            className="w-5 cursor-pointer dark:hidden"
-          />
-          <img
-            src="./images/close-white.png"
-            className="w-5 cursor-pointer hidden dark:block"
-          />
+          <img src="./images/close-black.png" className="w-5 cursor-pointer" />
         </div>
 
         <li>
