@@ -9,3 +9,7 @@
   --tw-shadow-color: #000;
   --tw-shadow: var(--tw-shadow-colored);
 }
+
+.aboutme__markdown p{
+  margin: revert;
+}

@@ -1,4 +1,35 @@
 import React from "react";
+import Markdown from "react-markdown";
+
+const aboutMe = `Hi, I'm **Sanjay Rishidev** , a passionate and dedicated **Full-stack Developer** based in Kathmandu, Nepal. With over **3 years of experience** in web development, I specialize in technologies like **ReactJS, NodeJS, NextJS, JavaScript, TypeScript, and MySQL**
+
+  
+  
+  
+
+I began my journey as a **ReactJS intern** at Codekarkhana, where I worked on impactful projects like a government initiative and a job portal site. This experience sparked my interest in backend development with **NodeJS** , leading me to grow into a full-stack developer role at **Bisava Technology** and later at **Flutter Motion (Romania based company)**.
+
+  
+
+Throughout my career, I've had the opportunity to work on diverse projects such as:
+
+  
+
+- **WriteGPT** : A browser extension integrating ChatGPT API.
+
+- **Euvin**: Online invitation platform.
+
+- **Jobpauchha** : A dynamic job portal platform.
+
+- **AvaniNepal** : A travel and tourism-based application.
+
+- **Security Information Portal** for Romania Consulate.
+
+- **Colorpick Eyedropper** : A Chrome extension for color extraction.
+
+  
+
+I believe in continuous learning and staying updated with the latest trends in technology. I'm committed to delivering clean, efficient, and scalable code while solving real-world problems with creativity and precision`;
 
 const AboutMe = () => {
   return (
@@ -7,18 +38,9 @@ const AboutMe = () => {
       <h2 className="text-center text-5xl font-Ovo">About me</h2>
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
         <div className="flex flex-col flex-1 items-center">
-          <p className="mb-10 max-w-4xl font-Ovo">
-            {`I'm Sanjay Rishidev, a Software Engineer specializing in the MERN
-            stack with MySQL, with expertise in web development, UI/UX design,
-            and scalable solutions. I have hands-on experience building
-            inventory systems, real-time applications, and dynamic landing
-            pages. <br />
-            Proficient in React, Node.js, MySQL, NoSQL and Tailwind CSS, I enjoy
-            solving complex challenges and contributing to innovative teams. My
-            journey in software engineering has strengthened my ability to craft
-            intuitive user interfaces and develop robust, scalable
-            architectures.`}
-          </p>
+          <div className="mb-10 max-w-4xl font-Ovo aboutme__markdown">
+            <Markdown>{aboutMe}</Markdown>
+          </div>
           <ul className="grid md:grid-cols-3 grid-cols-auto gap-6 max-w-4xl">
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 shadow-blackCustom">
               <img src="./images/code-icon.png" className="w-7 mt-3 " />
@@ -28,8 +50,7 @@ const AboutMe = () => {
               </h3>
               <p className="text-gray-600 text-sm dark:text-white/80">
                 HTML, CSS, JavaScript, TypeScript, ReactJs, NextJs, ExpressJs,
-                NodeJs, python, MongoDB, MySQL, NoSQL, Supabase, Firebase,
-                Wordpress, Ui/Ux, LLM
+                NodeJs, python, MongoDB, MySQL, NoSQL, Supabase, Firebase, LLM
               </p>
             </li>
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 shadow-blackCustom">
@@ -57,7 +78,7 @@ const AboutMe = () => {
               <p className="text-gray-600 text-sm dark:text-white/80">
                 Based on HTML, CSS, JavaScript, TypeScript, ReactJs, NextJs,
                 ExpressJs, NodeJs, python, MongoDB, MySQL, NoSQL, Supabase,
-                Firebase, Wordpress, Ui/Ux, LLM
+                Firebase, LLM
               </p>
             </li>
           </ul>
@@ -66,9 +87,6 @@ const AboutMe = () => {
           <ul className="flex items-center flex-wrap gap-3 sm:gap-5">
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
               <img src="./images/vscode.png" className="w-5 sm:w-7" />
-            </li>
-            <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src="./images/wordpress.png" className="w-5 sm:w-7" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
               <img src="./images/mysql.png" className="w-5 sm:w-7" />
@@ -90,14 +108,15 @@ const AboutMe = () => {
 
           <ul className="flex items-center flex-wrap gap-3 sm:gap-5">
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src="./images/mongocom.png" className="w-5 sm:w-7" />
-            </li>
-            <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
               <img
                 src="./images/expressjs_logo_icon_169185.png"
                 className="w-5 sm:w-7 color-white"
               />
             </li>
+            <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+              <img src="./images/mongocom.png" className="w-5 sm:w-7" />
+            </li>
+
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
               <img src="./images/react753244.png" className="w-5 sm:w-7" />
             </li>

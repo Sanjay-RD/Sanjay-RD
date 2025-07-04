@@ -13,8 +13,7 @@ const ProfileIntro = () => {
       </h1>
       <p className="max-w-2xl mx-auto font-Ovo">
         {`Welcome to my portfolio! I'm an aspiring software developer passionate
-          about front-end development with expertise in MERN stack with MySQL
-          and Web Development.`}
+          about front-end development, I specialize in ReactJS , NodeJS , NextJS , and MySQL , delivering high-quality solutions for modern web applications.`}
       </p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
@@ -27,7 +26,7 @@ const ProfileIntro = () => {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1q0ui04CjTKtwOfPNoewBObTC4bBI7UQy/view?usp=drivesdk"
+          href="/sanjay-rishidev-resume.pdf"
           target="_blank"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"

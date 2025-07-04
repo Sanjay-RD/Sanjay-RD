@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 
 const Header = () => {
+  const [open, setOpen] = React.useState(false);
   useEffect(() => {
     const navBar = document.querySelector("nav");
     const navLinks = document.querySelector("nav ul");
@@ -79,7 +80,7 @@ const Header = () => {
           <img src="./images/arrow-icon.png" className="w-3" />
         </a>
 
-        <button className="block md:hidden ml-3">
+        <button className="block md:hidden ml-3" onClick={() => setOpen(!open)}>
           <img src="./images/menu-black.png" className="w-6" />
         </button>
       </div>
@@ -87,8 +88,9 @@ const Header = () => {
       <ul
         id="sideMenu"
         className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo dark:bg-darkHover dark:text-white"
+        style={{ transform: open ? "translateX(-16rem)" : "translateX(16rem)" }}
       >
-        <div className="absolute right-6 top-6">
+        <div className="absolute right-6 top-6" onClick={() => setOpen(false)}>
           <img src="./images/close-black.png" className="w-5 cursor-pointer" />
         </div>
 
