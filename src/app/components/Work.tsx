@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import { ProjectCard } from "./project-card";
 
 export default function Work() {
@@ -52,7 +50,7 @@ export default function Work() {
 
   return (
     <div>
-      <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
+      <div id="work" className="w-full px-[7%] md:px-[12%] py-10 scroll-mt-20">
         <h4 className="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
         <h2 className="text-center text-5xl font-Ovo">My Latest Work</h2>
         <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
@@ -61,7 +59,7 @@ export default function Work() {
           on.
         </p>
 
-        <div className="grid grid-cols-4 my-10 gap-5 dark:text-black">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-10 gap-5 dark:text-black">
           {projects.map((project, index) => (
             <ProjectCard
               key={index}
@@ -73,7 +71,7 @@ export default function Work() {
           ))}
         </div>
 
-        <Link
+        {/* <Link
           href="https://github.com/anamuddinahmad"
           target="_blank"
           className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
@@ -93,7 +91,7 @@ export default function Work() {
             alt="Arrow"
             className="w-4 hidden dark:block"
           />
-        </Link>
+        </Link> */}
       </div>
       <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
         <h2 className="text-center text-5xl font-Ovo">My Personal Project</h2>
@@ -103,7 +101,7 @@ export default function Work() {
           on.
         </p> */}
 
-        <div className="grid grid-cols-4 my-10 gap-5 dark:text-black">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-10 gap-5 dark:text-black">
           {personalProjects.map((project, index) => (
             <ProjectCard
               key={index}
