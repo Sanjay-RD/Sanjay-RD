@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Sanjay Rishidev  
+# 👋 Hi, I'm <a href="https://portfolio-sanjay-994bc.web.app" target="_blank">Sanjay Rishidev</a>
 ### 🚀 Full-Stack Developer | React & Next.js | AI Integrations | Chrome Extensions
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sanjayrishidev&style=for-the-badge)
@@ -58,6 +58,6 @@
 
 ## 📬 Let's Connect
 📧 Email: **rishidevsanjay21@gmail.com**  
-🔗 LinkedIn: *(Add link)*  
-🔗 GitHub Portfolio: *(Add link)*  
+🔗 LinkedIn: **https://www.linkedin.com/in/sanjay-rd-68881b1b4/**  
+🔗 Website: **https://portfolio-sanjay-994bc.web.app**  
 
