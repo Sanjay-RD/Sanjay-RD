@@ -14,11 +14,17 @@ export default function Work() {
       description: "Online Invitation Platform",
       link: "https://euvin.ro/ro",
     },
+    // {
+    //   image: "/images/security.png",
+    //   title: "Security",
+    //   description: "Web development",
+    //   link: "https://security-e0eee.web.app/",
+    // },
     {
-      image: "/images/security.png",
-      title: "Security",
-      description: "Web development",
-      link: "https://security-e0eee.web.app/",
+      image: "/images/avaninepal.png",
+      title: "Avani Nepal",
+      description: "E-Commerce",
+      link: "https://avaninepal.com/",
     },
     {
       image: "/images/fluttermotion.png",
@@ -45,6 +51,12 @@ export default function Work() {
       title: "Enhanced Accessibility",
       description: "Chrome Extension",
       link: "https://chromewebstore.google.com/detail/enhanced-accessibility/lecpbmbadhloifokcdhfillhfaeollji?authuser=0&hl=en",
+    },
+    {
+      image: "/personal-project/autofill.png",
+      title: "AutoFill — Form Filler & Fake Data Extension",
+      description: "Chrome Extension",
+      link: "https://chromewebstore.google.com/detail/ionhfdnmbmnhbogjpibbalphjboomhaf?utm_source=item-share-cb",
     },
   ];
 
